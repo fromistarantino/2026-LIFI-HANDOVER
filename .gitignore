@@ -1,0 +1,27 @@
+# Vivado
+*.jou
+*.log
+*.str
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.gen/
+*.xpr
+*.bit
+*.bin
+.Xil/
+
+# Python
+__pycache__/
+*.pyc
+*.b64
+received_*
+
+# Arduino
+build/
+
+# OS
+.DS_Store
+Thumbs.db
