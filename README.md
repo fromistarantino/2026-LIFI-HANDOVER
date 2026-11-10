@@ -48,6 +48,12 @@
 │   ├── esp32/               광 송신 + 매직 바이트 감지
 │   └── python/              핸드오버 · HTTP 서버
 ├── 03-firmware-history/     ESP32 펌웨어 개발 이력 11단계
+├── 04-dataset/              핸드오버 예측 모델 학습 데이터셋 (587,000행)
+│   ├── 01_raw_frame_log.csv       원시 수신 로그 136,500행
+│   ├── 02_training_dataset.csv    특징 11개 + 정답 587,000행
+│   ├── 03_label_summary.csv       차광 이벤트 5,434회
+│   ├── 04_trace_conditions.csv    시나리오 500개 생성 조건
+│   └── export_full.py             데이터 생성 스크립트
 └── docs/
     └── hardware-wiring.md   아날로그 회로 · 핀맵 · 부품표
 ```
